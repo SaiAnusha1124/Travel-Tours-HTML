@@ -1,0 +1,67 @@
+/* Mainpage css */
+.mainpage{
+    padding: 0px;
+    margin: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resources/Images/main-page-wallpaper.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  ul{
+    font-size: 30px;
+    float: right;
+    list-style-type: none;
+  }
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 1px transparent;
+    transition: 0.6s ease;
+  }
+  ul li a:hover{
+  background-color: whitesmoke;
+  color: gray;
+  }
+  ul li.active a{
+  background-color: whitesmoke;
+  color: gray;
+  }
+  .logo img{
+    width: 138px;
+    height: auto;
+  }
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .tittle{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+  }
+  .tittle h1{
+    color: white;
+    font-size: 50px;
+  }
+  .button{
+    position: absolute;
+    font-size: 25px;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%,-50%); 
+  }
+  .btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:white ;
+    text-decoration: none;
+    transition: 0.6s ease;
+  }
+  .btn:hover{
+    background-color:whitesmoke ;
+    color: darkred;
+  }

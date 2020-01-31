@@ -1,0 +1,77 @@
+/* loginpage css */
+.heading{
+  color: whitesmoke;
+  font-size: 60px;
+  text-align: center;
+}
+/* Body wallpaper */
+.login-image{
+  padding: 0;
+  margin: 0;
+  background-image: url(resources/Images/login-page-wallpaper.jpg);
+  background-size: cover;
+}
+
+/* Login form css */
+.form{
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  opacity: 99%;
+  max-width: 260px;
+  margin: 100px auto 50px;
+  padding: 10px 45px 30px 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+  border-radius: 10px;
+}
+.form p{
+  font-size: 14px;
+  padding: 1px;
+  text-align: center;
+}
+.form input{
+  outline: 0;
+  border-radius: 10px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form input:hover{
+  background-color: cadetblue;
+  transition: all 1s ease 0s;
+}
+.form input:focus{
+  background-color: darkgrey;
+  transition: all 1s ease 0s;
+}
+.form button{
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background: lightskyblue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: azure;
+  font-size: 15px;
+  cursor: pointer;
+}
+.form button:hover, .form button:active, .form button:focus{
+  background-color: burlywood;
+  transition: all 1s ease 0s;
+}
+.form .message{
+  margin: 15px 0 0;
+  color: coral;
+  font-size: 18px;  
+}
+.form .message a{
+  color: violet;
+  text-decoration: none;
+}
